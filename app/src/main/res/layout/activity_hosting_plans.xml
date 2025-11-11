@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/loginIcon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="@string/hosting_icon_desc"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+        <Button
+            android:id="@+id/btnBackToDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2196F3"
+            android:layout_gravity="right"
+            android:text="Back to Dashboard"
+            android:textColor="#FFFFFF" />
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Hosting Plans"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Starter Plan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:text="Starter Web Hosting" android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="1 GB Disk Space"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="10 GB Bandwidth"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="1 Email Account"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="Price: ZAR 49.99/month"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Basic Plan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:text="Basic Web Hosting" android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="5 GB Disk Space"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="50 GB Bandwidth"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="5 Email Accounts"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="Price: ZAR 99.99/month"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Pro Plan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:text="Pro Web Hosting" android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="10 GB Disk Space"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="100 GB Bandwidth"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="10 Email Accounts"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="Price: ZAR 149.99/month"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Business Plan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:text="Hosting Business" android:textStyle="bold"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="20 GB Disk Space"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="200 GB Bandwidth"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="20 Email Accounts"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:text="Price: ZAR 199.99/month"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

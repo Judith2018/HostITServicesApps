@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">HostITServices</string>
+    <string name="login_title">Login</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+        <!-- Dashboard -->
+        <string name="dashboard_icon_desc">Dashboard icon</string>
+        <string name="dashboard_title">Host IT Services</string>
+        <string name="dashboard_subtitle">Bringing you a variety of tech services</string>
+        <string name="renew_domain">Renew Domain</string>
+        <string name="create_account">Create Account</string>
+
+        <!-- Header navigation -->
+        <string name="nav_home">Home</string>
+        <string name="nav_services">Services</string>
+        <string name="nav_support">Support Ticket</string>
+        <string name="nav_account">Account</string>
+        <string name="nav_cart">View Cart</string>
+
+        <!-- Services section -->
+        <string name="services_heading">My Services</string>
+        <string name="services_col_service">Service</string>
+        <string name="services_col_status">Status</string>
+        <string name="services_col_billing">Billing</string>
+        <string name="services_col_date">Date</string>
+        <string name="services_col_cycle">Billing Cycle</string>
+
+        <string name="service_web_hosting">Web Hosting</string>
+        <string name="service_reseller_hosting">Reseller Hosting</string>
+        <string name="service_vps_hosting">VPS Hosting</string>
+
+        <string name="status_active">Active</string>
+        <string name="billing_60usd">$60.00 USD</string>
+        <string name="billing_80usd">$80.00 USD</string>
+        <string name="billing_100usd">$100.00 USD</string>
+        <string name="date_10_12_2023">10/12/2023</string>
+        <string name="cycle_monthly">Monthly</string>
+
+        <!-- Domain screen -->
+        <string name="domain_icon_desc">Domain screen logo</string>
+        <string name="register_domain">Register Domain</string>
+        <string name="domain_hint">Enter domain name</string>
+        <string name="search_button">Search</string>
+        <string name="transfer_domain">Transfer Domain</string>
+        <string name="transfer_hint">Enter domain to transfer</string>
+        <string name="auth_code_hint">Authorization Code</string>
+        <string name="transfer_button">Transfer</string>
+
+
+
+        <!-- Support section -->
+        <string name="support_heading">Support Ticket</string>
+        <string name="support_col_subject">Subject</string>
+        <string name="support_col_status">Status</string>
+        <string name="support_col_priority">Priority</string>
+
+        <string name="ticket_cant_access_site">Can’t access site</string>
+        <string name="ticket_need_upgrade_plan">Need upgrade plan</string>
+        <string name="status_open">Open</string>
+        <string name="status_closed">Closed</string>
+        <string name="priority_high">High</string>
+        <string name="priority_low">Low</string>
+        <string name="hosting_icon_desc">Hosting plans icon</string>
+
+        <!-- Cart screen -->
+        <string name="cart_title">Your Cart</string>
+        <string name="cart_item">Item: iHost Services</string>
+        <string name="cart_price">Price: R250.00 ZAR Monthly</string>
+        <string name="cart_total">Total Due Today: R250.00 ZAR</string>
+        <string name="cart_checkout">Checkout</string>
+
+        <!-- Support screen -->
+        <string name="support_create_title">Create New Support Ticket</string>
+        <string name="support_subject_hint">Subject</string>
+        <string name="support_message_hint">Message</string>
+        <string name="support_submit">Submit</string>
+        <string name="support_existing_title">Existing Tickets</string>
+    <string name="login_icon_desc">Login screen logo</string>
+    <string name="dashboard_logo_desc">Host IT Services logo</string>
+
+
+
+    <!-- Example ticket -->
+        <string name="ticket_subject_1">Subject: Can’t access site</string>
+        <string name="ticket_status_1">Status: Open</string>
+        <string name="ticket_priority_1">Priority: High</string>
+
+
+</resources>
+
+
