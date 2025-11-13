@@ -25,7 +25,6 @@
             android:layout_height="wrap_content"
             android:hint="@string/support_subject_hint"
             android:inputType="text"
-            android:autofillHints="username"
             android:layout_marginTop="12dp" />
 
         <!-- Message Field -->
@@ -35,7 +34,6 @@
             android:layout_height="wrap_content"
             android:hint="@string/support_message_hint"
             android:inputType="textMultiLine"
-            android:autofillHints="none"
             android:layout_marginTop="8dp" />
 
         <!-- Submit Button -->
@@ -83,6 +81,7 @@
                 android:text="@string/ticket_priority_1" />
         </LinearLayout>
 
+        <!-- Navigation Buttons -->
         <Button
             android:id="@+id/btnBackToDashboard"
             android:layout_width="wrap_content"
@@ -104,4 +103,3 @@
 
     </LinearLayout>
 </ScrollView>
-
