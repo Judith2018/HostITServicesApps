@@ -19,6 +19,8 @@
             android:contentDescription="@string/hosting_icon_desc"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp" />
+
+        <!-- Back to Dashboard -->
         <Button
             android:id="@+id/btnBackToDashboard"
             android:layout_width="wrap_content"
@@ -28,6 +30,18 @@
             android:layout_gravity="right"
             android:text="Back to Dashboard"
             android:textColor="#FFFFFF" />
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#F44336"
+            android:layout_gravity="right"
+            android:text="Logout"
+            android:textColor="#FFFFFF" />
+
         <!-- Title -->
         <TextView
             android:layout_width="wrap_content"
@@ -124,3 +138,4 @@
     </LinearLayout>
 
 </ScrollView>
+
