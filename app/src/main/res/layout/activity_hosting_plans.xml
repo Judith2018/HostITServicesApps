@@ -53,6 +53,7 @@
 
         <!-- Starter Plan -->
         <LinearLayout
+            android:id="@+id/starterPlan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -74,6 +75,7 @@
 
         <!-- Basic Plan -->
         <LinearLayout
+            android:id="@+id/basicPlan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -95,6 +97,7 @@
 
         <!-- Pro Plan -->
         <LinearLayout
+            android:id="@+id/proPlan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -116,6 +119,7 @@
 
         <!-- Business Plan -->
         <LinearLayout
+            android:id="@+id/businessPlan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -136,6 +140,4 @@
         </LinearLayout>
 
     </LinearLayout>
-
 </ScrollView>
-
